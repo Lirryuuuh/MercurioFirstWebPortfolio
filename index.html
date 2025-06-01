@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+ 
+  <!-- MOBILE NAVBAR -->
+<div class="mobile-topbar">
+  <div class="hamburger" id="hamburger">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+  <span class="mobile-name">Jhonlirry P. Mercurio</span>
+</div>
+
+
+<!-- SLIDEOUT MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="menu-header">
+  <span class="menu-name">Jhonlirry P. Mercurio</span>
+  <div>
+    <i class="fa-solid fa-moon dark-toggle" id="mobileDarkToggle"></i>
+  </div>
+</div>
+
+  <ul class="menu-links">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#testimony">Testimony</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="menu-footer">
+    <a href="https://github.com/Lirryuuuh" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+    <a href="https://www.facebook.com/LirryMercurio" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a>
+    <a href="mailto:mercuriojhonlirry1@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+  </div>
+</div>
+</div>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Jhonlirry P. Mercurio</a>
+    </div>
+    <div class="right">
+      <a href="https://github.com/Lirryuuuh" target="_blank"><i class="fa-brands fa-github-alt"></i><span>Github</span></a>
+      <a href="https://www.facebook.com/LirryMercurio" target="_blank"><i class="fa-brands fa-facebook"></i><span>Facebook</span></a>
+      <a href="mailto:mercuriojhonlirry1@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+    
+      <button id="mode-toggle" class="mode-btn">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <!-- INTRO -->
+    <section class="intro-section fade-section">
+      <div class="text">
+        <h2>Hi, I'm Jhonlirry! 👋</h2>
+        <div class="role-text">
+          <span class="static-part">I am a&nbsp;</span>
+          <span id="typewriter-word" class="coffee-highlight"></span>
+          <span class="cursor">|</span>
+          </div>
+        <p>Hello! I'm a passionate and dedicated college student currently pursuing 
+          a Bachelor of Science in Information Technology (BSIT) at STI College Pasay-EDSA. 
+          Now in my third year, I have developed a foundation in both front-end and back-end development. 
+          My journey in IT has fueled a deep interest in software development, design, and problem-solving. 
+          This website serves as a personal portfolio showcasing my skills, projects, 
+          and the growth I have experienced throughout my academic career.</p>
+        <div class="links">
+          <a href="#skills"><i class="fa-solid fa-code"></i><span>Skills</span></a>
+          <a href="#testimony"><i class="fa-solid fa-pen"></i><span>Testimony</span></a>
+          <a href="#contact"><i class="fa-solid fa-address-card"></i><span>Contact</span></a>
+        </div>
+      </div>
+      <div class="headshot">
+        <img src="images/profile_webp.webp" alt="headshot" />
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skill-section fade-section">
+      <h2>SKILLS</h2>
+      <div class="text">Over the past few years, I have gained hands-on experience in various 
+        programming languages and development tools as part of my coursework and personal projects. 
+        These languages and technologies have become my forte including HTML, CSS, JavaScript, Java, and C#. 
+        Through consistent practice and application in real-world scenarios, I have developed 
+        a keen eye for clean code and user-friendly design. Each skill showcased here reflects the knowledge 
+        I've acquired at school and the passion I bring into everything I build.
+      </div>
+      <div class="cells">
+        <div class="cell fade-up"><img src="images/html.webp" /><span>HTML</span></div>
+        <div class="cell fade-up"><img src="images/css.webp" /><span>CSS</span></div>
+        <div class="cell fade-up"><img src="images/javascript.webp" /><span>JAVASCRIPT</span></div>
+        <div class="cell fade-up"><img src="images/python.webp" /><span>PYTHON</span></div>
+        <div class="cell fade-up"><img src="images/c.webp" /><span>C#</span></div>
+      </div>
+    </section>
+
+    <!-- TESTIMONY -->
+    <section id="testimony" class="testimony-section fade-section">
+      <h2>TESTIMONY</h2>
+      <div class="group">
+  <div class="person-details">
+    <img src="images/testimony_webp.webp" />
+    <h5>Jhonlirry P. Mercurio</h5>
+    <h5>BSIT Student</h5>
+  </div>
+  <div class="text-container">
+    <p class="italic-text">"Innovation is not just about code; it is about crafting an experience."</p>
+    <p>This testimonial reflect not only my technical skills but also my work ethic, teamwork, and willingness to help others. Whether it is collaborating on group projects or assisting with troubleshooting, I always strive to contribute positively and consistently go the extra mile. This section highlights the qualities that make me a reliable and dedicated individual both inside and outside the classroom.</p>
+  </div>
+</div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section fade-section">
+      <h2>CONTACT</h2>
+      <div class="group">
+        <div class="text">
+          <p>I would love to hear from you! Whether you're reaching out for collaboration, inquiries, or just to connect, 
+            feel free to use the form below. I am always open to opportunities for growth, feedback, or simply networking with like-minded individuals in the tech space. 
+            Let us build something amazing together!</p>
+        </div>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+          <label for="message">Message</label>
+          <textarea id="message" rows="6"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
